@@ -1,5 +1,6 @@
 const {catchAsync} = require("../classes/catchAsync");
 const httpStatus = require("http-status");
+const {userService} = require("../services");
 
 /**
  * Create a new user
@@ -7,6 +8,7 @@ const httpStatus = require("http-status");
  */
 exports.createUser = catchAsync(async (req, res) => {
     //create your user then return it
+    //const user = await userService.createUser(req.params)
     //shResponse200Data(httpStatus.CREATED).send(user)
 })
 

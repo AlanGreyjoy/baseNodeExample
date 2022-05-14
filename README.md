@@ -5,6 +5,7 @@ A super super watered down boiler plate to start a node server.
 ## Install
 ```bash
 npm install
+npm install nodemon
 ```
 then
 ```bash
