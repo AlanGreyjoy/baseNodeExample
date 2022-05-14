@@ -12,6 +12,14 @@ cd src
 nodemon
 ```
 
+## Test routes
+These routes are for testing and demonstration.
+```http request
+http://localhost:3006/api/v1/groups
+http://localhost:3006/api/v1/users
+http://localhost:3006/api/v1/users/33
+```
+
 ## Other notes
 No docker, no DB, no auth. Just a basic node server structure.
 I may include auth with mongo and passport later on.
