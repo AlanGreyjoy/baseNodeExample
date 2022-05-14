@@ -1,11 +1,9 @@
-const {nmSuccess} = require("../../../globals");
-module.exports = (router) => {
+const express = require('express')
+const {groupsController} = require('../../../controllers')
+const router = express.Router()
 
-    router.get('/groups', async (req, res) =>{
-        console.log('get all groups')
+router
+    .route('/')
+    .get(groupsController.groups)
 
-        return nmSuccess(res, {success: true})
-    })
-
-    return router
-};
+module.exports = router
