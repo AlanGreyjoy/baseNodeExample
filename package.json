@@ -1,12 +1,22 @@
 {
   "name": "baseNodeExample",
   "version": "1.0.0",
+  "description": "Help jump start node using the most basic boilerplate possible",
+  "main": "src/index.js",
+  "author": "Alan Spurlock <alanspurlock@hotmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "helmet": "^5.0.2",
     "http-status": "^1.5.2",
-    "jsonwebtoken": "^8.5.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.3.3",
+    "passport": "^0.5.2",
+    "validator": "^13.7.0",
     "winston": "^3.7.2"
   }
 }
